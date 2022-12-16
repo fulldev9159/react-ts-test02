@@ -1,10 +1,15 @@
 import * as React from 'react';
+import './Test.scss';
 
 export default function Car(props) {
   return (
     <React.Fragment>
-      <h1>This is a React Test Code.</h1>
-      <h3>color: {props.color} &nbsp; &nbsp; ({props.dataid})</h3>
+      <div className="description">
+        <h3>This is a example for `props` use</h3>
+        <h3>
+          color: {props.color} &nbsp; &nbsp; ({props.dataid})
+        </h3>
+      </div>
     </React.Fragment>
   );
 }
