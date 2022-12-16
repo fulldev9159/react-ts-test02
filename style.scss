@@ -1,0 +1,60 @@
+.login-form {
+  padding: 35px 35px 25px 35px;
+  border: solid 1px #aaa;
+  background-color: #ddddee;
+  border-radius: 20%;
+  display: grid;
+  gap: 10px;
+
+  input {
+    padding: 5px 15px;
+    border: solid 1px #bbb;
+    color: rgb(53, 89, 156);
+
+    &:hover {
+      border-color: rgb(169, 201, 248);
+    }
+
+    &:focus {
+      outline: none;
+      border-color: rgb(103, 161, 248);
+    }
+
+    &.submit-button {
+      background-color: rgb(152, 188, 255);
+      border: solid 1px rgb(60, 131, 223);
+      border-radius: 2px;
+      cursor: pointer;
+      padding: 8px 5px;
+      place-self: center;
+      width: 40%;
+
+      &:hover {
+        background-color: rgb(181, 207, 255);
+      }
+
+      &:active {
+        background-color: rgb(88, 142, 241);
+      }
+    }
+  }
+}
+
+h1,
+p {
+  font-family: Lato;
+}
+
+/* description */
+.description {
+  margin-top: 20px;
+  border: solid 1px #bbb;
+  border-radius: 3px;
+  padding: 5px 15px;
+
+  h3 {
+    font-size: 1rem;
+    color: #aaa;
+    margin: 0px 0px 0px 0px !important;
+  }
+}

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import './Test.scss';
+import '../style.scss';
 
-export default function Car(props) {
+export default function Description(props) {
   return (
     <React.Fragment>
       <div className="description">
