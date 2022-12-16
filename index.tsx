@@ -11,6 +11,6 @@ const root = createRoot(rootElement);
 root.render(
   <StrictMode>
     <App />
-    <Car />
+    <Car color="red" dataid="color" />
   </StrictMode>
 );
